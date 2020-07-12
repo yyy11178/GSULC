@@ -16,7 +16,7 @@ Method for Web-Supervised Fine-Grained Visual Classification**<br>
 The code is currently tested only on GPU
 * Data Preparation
 
--------
+
 Download data into working directory and decompress them using
 
 ```
