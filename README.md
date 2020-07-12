@@ -11,11 +11,12 @@ Network Architecture
 
 Installation
 ---
-```
-- pytorch, tested on [v1.0]
-- CUDA, tested on v9.0
-- Language: Python 3.6
-```
+- Python 3.7.3
+
+- Pytorch 1.3.1
+
+- CUDA 10.0.130
+
 
 
 How to use
