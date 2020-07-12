@@ -14,8 +14,9 @@ Method for Web-Supervised Fine-Grained Visual Classification**<br>
 
 # How to use
 The code is currently tested only on GPU
-* Data Preparation
+* Data Preparation<br>
 Download data into working directory and decompress them using
+>
 ```
 wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-aircraft.tar.gz
 wget https://web-fgvc-496-5089.oss-cn-hongkong.aliyuncs.com/web-bird.tar.gz
@@ -24,4 +25,4 @@ tar -xvf web-aircraft.tar.gz
 tar -xvf web-bird.tar.gz
 tar -xvf web-car.tar.gz
 ```
-* Source Code
+* Source Code<br>
