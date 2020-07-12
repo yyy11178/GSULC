@@ -6,7 +6,7 @@ Method for Web-Supervised Fine-Grained Visual Classification**
 
 Network Architecture
 ---
-![image](https://github.com/yyy11178/GSULC/blob/master/images/20200712155716.png)
+![network_architecture](images/network_architecture.png)
 
 
 Installation
@@ -38,7 +38,7 @@ The code is currently tested only on GPU
     
     - If you want to train the whole model from beginning using the source code, please follow the subsequent steps.
 
-        - Download dataset of `web-aircraft`/`web-bird`/`web-car` into the working directory as needed.
+        - Download dataset of `web-bird`/`web-aircraft`/`web-car` into the working directory as needed.
         - Modify `CUDA_VISIBLE_DEVICES` to proper cuda device id in `web_birds.sh`, `web_aircrafts.sh`, `web_cars.sh`.
         - Run the script
             ```
