@@ -6,7 +6,7 @@ Method for Web-Supervised Fine-Grained Visual Classification**
 
 Network Architecture
 ---
-![network_architecture](images/network_architecture.png)
+![network_architecture](image/network_architecture.png)
 
 
 Installation
