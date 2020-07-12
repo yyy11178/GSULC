@@ -32,5 +32,18 @@ The code is currently tested only on GPU
    tar -xvf web-bird.tar.gz
    tar -xvf web-car.tar.gz
    ```
+   
+   
 - Source Code
+    
+    - If you want to train the whole model from beginning using the source code, please follow the subsequent steps.
+
+        - Download dataset of `web-aircraft`/`web-bird`/`web-car` into the working directory as needed.
+        - Modify `CUDA_VISIBLE_DEVICES` to proper cuda device id in `web_birds.sh`, `web_aircrafts.sh`, `web_cars.sh`.
+        - Run the script
+            ```
+            bash web_birds.sh
+            bash web_aircrafts.sh
+            bash web_cars.sh
+            ```
 
