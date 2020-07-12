@@ -11,6 +11,7 @@ Network Architecture
 
 Installation
 ---
+The code is currently tested in follow virtual environment
 - Python 3.7.3
 
 - Pytorch 1.3.1
