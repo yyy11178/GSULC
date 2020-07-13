@@ -42,6 +42,7 @@ The code is currently tested only on GPU
     - If you want to train the whole model from beginning using the source code, please follow the subsequent steps.
 
         - Download dataset of `web-bird`/`web-aircraft`/`web-car` into the working directory as needed.
+        
         - Change parameters in `web_birds.sh`, `web_aircrafts.sh`, `web_cars.sh` if you need
             ```
             -CUDA_VISIBLE_DEVICES: gpu number which you want to use
@@ -52,8 +53,9 @@ The code is currently tested only on GPU
             -epoch: the training epoch of every step
             -drop_rate: the rate which you want to corrupt (for different dataset)
             -queue_size: the length of prediction record history
-            -warm_up: warm-up training in the begining of training
+            -warm_up: warm-up training epoch in the begining
             ```        
+        
         - Run the script
             ```
             bash web_birds.sh
