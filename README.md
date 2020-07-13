@@ -48,6 +48,8 @@ The code is currently tested only on GPU
             -dataset: dataset in {web-bird, web-aircraft, web-car}
             -n_classes: classes for different dataset
             -base_lr: initial learning rate
+            -batch_size:
+            -epoch: 
             -drop_rate: the rate which you want to corrupt (for different dataset)
             -queue_size: the length of prediction record history
             -warm_up: warm-up training in the begining of training
