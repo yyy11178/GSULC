@@ -60,4 +60,5 @@ The code is currently tested only on GPU
             bash web_aircrafts.sh
             bash web_cars.sh
             ```
+        - The result will be saved as `training_log.txt`
 
