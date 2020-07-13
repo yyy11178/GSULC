@@ -56,7 +56,7 @@ The code is currently tested only on GPU
             -warm_up: warm-up training epoch in the begining
             ```        
         
-        - Run the script
+        - Training
             ```
             bash web_birds.sh
             bash web_aircrafts.sh
