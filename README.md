@@ -1,7 +1,8 @@
 Introduction
 ---
 Datasets and source code for our paper **A Global Selection and Uncertainly Loss Correction
-Method for Web-Supervised Fine-Grained Visual Classification**
+Method for Webly Supervised Fine-Grained Visual
+Classification**
 
 
 Network Architecture
@@ -41,7 +42,16 @@ The code is currently tested only on GPU
     - If you want to train the whole model from beginning using the source code, please follow the subsequent steps.
 
         - Download dataset of `web-bird`/`web-aircraft`/`web-car` into the working directory as needed.
-        - Modify `CUDA_VISIBLE_DEVICES` to proper cuda device id in `web_birds.sh`, `web_aircrafts.sh`, `web_cars.sh`.
+        - Parameters in `web_birds.sh`, `web_aircrafts.sh`, `web_cars.sh`
+            ```
+            -CUDA_VISIBLE_DEVICES: gpu number which you want to use
+            -dataset: dataset in {web-bird, web-aircraft, web-car}
+            -n_classes: classes for different dataset
+            -base_lr: initial learning rate
+            -drop_rate: the rate which you want to corrupt (for different dataset)
+            -queue_size: the length of prediction record history
+            -warm_up: warm-up training in the begining of training
+            ```        
         - Run the script
             ```
             bash web_birds.sh
