@@ -1,13 +1,11 @@
 Introduction
 ---
-Datasets and source code for our paper **A Global Selection and Uncertainly Loss Correction
-Method for Webly Supervised Fine-Grained Visual
-Classification**
+Datasets and source code for our paper **An Uncertainly Dynamic Loss Correction and Global Sample Selection Method for Webly Supervised Fine-Grained Visual Classification**
 
 
 Network Architecture
 ---
-![network_architecture](image/network_architecture.png)
+![network_architecture](image/architecture.png)
 
 
 Installation
