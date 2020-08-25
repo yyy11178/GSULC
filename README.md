@@ -5,7 +5,7 @@ Datasets and source code for our paper **An Uncertainly Dynamic Loss Correction 
 
 Network Architecture
 ---
-![network_architecture](image/architecture.png)
+![network_architecture](image/architecture.jpg)
 
 
 Installation
